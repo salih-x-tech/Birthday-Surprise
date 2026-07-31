@@ -1,0 +1,181 @@
+/* ==========================================
+   BASE STYLES
+   Birthday Surprise
+========================================== */
+
+/* ---------- CSS Reset ---------- */
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ---------- HTML ---------- */
+
+html{
+
+    scroll-behavior:smooth;
+
+    -webkit-text-size-adjust:100%;
+
+}
+
+/* ---------- BODY ---------- */
+
+body{
+
+    min-height:100vh;
+
+    background:var(--gradient-background);
+
+    overflow-x:hidden;
+
+    font-family:var(--font-body);
+
+    color:var(--color-text);
+
+    text-rendering:optimizeLegibility;
+
+    -webkit-font-smoothing:antialiased;
+
+    -moz-osx-font-smoothing:grayscale;
+
+}
+
+/* ---------- MEDIA ---------- */
+
+img,
+picture,
+video,
+canvas,
+svg{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+/* ---------- FORM ELEMENTS ---------- */
+
+input,
+button,
+textarea,
+select{
+
+    font:inherit;
+
+}
+
+/* ---------- BUTTON ---------- */
+
+button{
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+}
+
+/* ---------- LINKS ---------- */
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+/* ---------- LIST ---------- */
+
+ul,
+ol{
+
+    list-style:none;
+
+}
+
+/* ---------- TABLE ---------- */
+
+table{
+
+    border-collapse:collapse;
+
+    border-spacing:0;
+
+}
+
+/* ---------- TEXT ---------- */
+
+p{
+
+    overflow-wrap:break-word;
+
+}
+
+/* ---------- HEADINGS ---------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    text-wrap:balance;
+
+}
+
+/* ---------- FOCUS ---------- */
+
+:focus-visible{
+
+    outline:2px solid var(--color-accent);
+
+    outline-offset:4px;
+
+}
+
+/* ---------- SELECTION ---------- */
+
+::selection{
+
+    background:var(--color-primary);
+
+    color:var(--color-white);
+
+}
+
+/* ---------- SCROLLBAR ---------- */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:var(--color-bg-900);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--color-primary);
+
+    border-radius:999px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--color-highlight);
+
+}
