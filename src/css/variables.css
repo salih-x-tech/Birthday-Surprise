@@ -1,0 +1,158 @@
+/* ==========================================
+   DESIGN TOKENS
+   Birthday Surprise
+   Version: 1.0
+========================================== */
+
+:root {
+
+  /* ==========================================
+     COLORS
+  ========================================== */
+
+  --color-primary: #6C4CF1;
+  --color-secondary: #091122;
+  --color-accent: #FFD166;
+  --color-highlight: #FF6FAE;
+
+  --color-white: #FFFFFF;
+  --color-text: #D6D8E0;
+  --color-text-muted: #9EA3B0;
+
+  --color-bg-900: #050816;
+  --color-bg-800: #091122;
+  --color-bg-700: #151A36;
+
+  /* ==========================================
+     GRADIENTS
+  ========================================== */
+
+  --gradient-background:
+      linear-gradient(
+          180deg,
+          #050816 0%,
+          #091122 50%,
+          #151A36 100%
+      );
+
+  --gradient-primary:
+      linear-gradient(
+          135deg,
+          #6C4CF1,
+          #3F8CFF
+      );
+
+  --gradient-accent:
+      linear-gradient(
+          135deg,
+          #FFD166,
+          #FFB703
+      );
+
+  /* ==========================================
+     TYPOGRAPHY
+  ========================================== */
+
+  --font-heading:
+      "Great Vibes",
+      cursive;
+
+  --font-body:
+      "Poppins",
+      sans-serif;
+
+  /* Font Sizes */
+
+  --fs-xs: .75rem;
+  --fs-sm: .875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.5rem;
+  --fs-2xl: 2rem;
+  --fs-3xl: 3rem;
+  --fs-hero: 4rem;
+
+  /* ==========================================
+     FONT WEIGHT
+  ========================================== */
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* ==========================================
+     SPACING
+  ========================================== */
+
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: .75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --space-9: 5rem;
+  --space-10: 6rem;
+
+  /* ==========================================
+     BORDER RADIUS
+  ========================================== */
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-pill: 999px;
+
+  /* ==========================================
+     GLASS EFFECT
+  ========================================== */
+
+  --glass-bg: rgba(255,255,255,.08);
+  --glass-border: rgba(255,255,255,.15);
+  --glass-blur: 20px;
+
+  /* ==========================================
+     SHADOWS
+  ========================================== */
+
+  --shadow-soft:
+      0 10px 40px rgba(0,0,0,.25);
+
+  --shadow-glow:
+      0 0 40px rgba(108,76,241,.45);
+
+  --shadow-gold:
+      0 0 35px rgba(255,209,102,.35);
+
+  /* ==========================================
+     TRANSITIONS
+  ========================================== */
+
+  --transition-fast: .2s ease;
+  --transition-normal: .4s ease;
+  --transition-slow: .8s ease;
+
+  /* ==========================================
+     Z-INDEX
+  ========================================== */
+
+  --z-background: -1;
+  --z-default: 1;
+  --z-content: 10;
+  --z-overlay: 100;
+  --z-loader: 999;
+  --z-modal: 1000;
+
+  /* ==========================================
+     LAYOUT
+  ========================================== */
+
+  --container-width: 1200px;
+  --container-padding: 24px;
+
+}
+
