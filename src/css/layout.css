@@ -1,0 +1,128 @@
+/* ==========================================
+   LAYOUT
+   Birthday Surprise
+========================================== */
+
+/* ---------- Main App ---------- */
+
+.app{
+
+    position:relative;
+
+    width:100%;
+
+    min-height:100vh;
+
+    overflow:hidden;
+
+}
+
+/* ---------- Container ---------- */
+
+.container{
+
+    width:min(100% - (var(--container-padding) * 2), var(--container-width));
+
+    margin-inline:auto;
+
+}
+
+/* ---------- Section ---------- */
+
+.section{
+
+    position:relative;
+
+    width:100%;
+
+}
+
+/* ---------- Full Screen Scene ---------- */
+
+.scene{
+
+    position:relative;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:var(--space-8) 0;
+
+}
+
+/* ---------- Content Wrapper ---------- */
+
+.content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:var(--space-5);
+
+    text-align:center;
+
+}
+
+/* ---------- Stack ---------- */
+
+.stack{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+/* ---------- Cluster ---------- */
+
+.cluster{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:var(--space-3);
+
+    flex-wrap:wrap;
+
+}
+
+/* ---------- Grid ---------- */
+
+.grid{
+
+    display:grid;
+
+    gap:var(--space-5);
+
+}
+
+/* ---------- Center ---------- */
+
+.center{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/* ---------- Hidden ---------- */
+
+.hidden{
+
+    display:none !important;
+
+}
