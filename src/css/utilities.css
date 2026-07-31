@@ -1,0 +1,131 @@
+/* ==========================================
+   UTILITIES
+   Birthday Surprise
+========================================== */
+
+/* ---------- Display ---------- */
+
+.hidden {
+    display: none !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.block {
+    display: block;
+}
+
+/* ---------- Alignment ---------- */
+
+.text-center {
+    text-align: center;
+}
+
+.mx-auto {
+    margin-inline: auto;
+}
+
+/* ---------- Glass Effect ---------- */
+
+.glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+}
+
+/* ---------- Glow ---------- */
+
+.glow {
+    box-shadow: var(--shadow-glow);
+}
+
+/* ---------- Gold Glow ---------- */
+
+.glow-gold {
+    box-shadow: var(--shadow-gold);
+}
+
+/* ---------- Rounded ---------- */
+
+.rounded {
+    border-radius: var(--radius-lg);
+}
+
+.rounded-pill {
+    border-radius: var(--radius-pill);
+}
+
+/* ---------- Shadow ---------- */
+
+.shadow {
+    box-shadow: var(--shadow-soft);
+}
+
+/* ---------- Gradient Text ---------- */
+
+.text-gradient {
+
+    background: var(--gradient-primary);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+
+    color: transparent;
+
+}
+
+/* ---------- User Selection ---------- */
+
+.no-select {
+    user-select: none;
+}
+
+/* ---------- Pointer ---------- */
+
+.pointer {
+    cursor: pointer;
+}
+
+/* ---------- Overflow ---------- */
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* ---------- Fade ---------- */
+
+.fade {
+    opacity: 0;
+}
+
+/* ---------- Screen Reader ---------- */
+
+.sr-only {
+
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+
+    padding: 0;
+
+    margin: -1px;
+
+    overflow: hidden;
+
+    clip: rect(0,0,0,0);
+
+    white-space: nowrap;
+
+    border: 0;
+
+}

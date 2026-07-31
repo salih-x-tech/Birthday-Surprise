@@ -1,0 +1,104 @@
+/* ==========================================
+   GLOBAL ANIMATIONS
+   Birthday Surprise
+========================================== */
+
+/* ---------- Pulse Glow ---------- */
+
+@keyframes pulseGlow {
+
+    0% {
+
+        transform: scale(1);
+
+        box-shadow:
+            0 0 40px rgba(255,209,102,.8),
+            0 0 80px rgba(108,76,241,.5);
+
+    }
+
+    50% {
+
+        transform: scale(1.08);
+
+        box-shadow:
+            0 0 60px rgba(255,209,102,1),
+            0 0 120px rgba(108,76,241,.8);
+
+    }
+
+    100% {
+
+        transform: scale(1);
+
+        box-shadow:
+            0 0 40px rgba(255,209,102,.8),
+            0 0 80px rgba(108,76,241,.5);
+
+    }
+
+}
+
+/* ---------- Fade In ---------- */
+
+@keyframes fadeIn {
+
+    from {
+
+        opacity: 0;
+
+    }
+
+    to {
+
+        opacity: 1;
+
+    }
+
+}
+
+/* ---------- Float ---------- */
+
+@keyframes floating {
+
+    0% {
+
+        transform: translateY(0);
+
+    }
+
+    50% {
+
+        transform: translateY(-12px);
+
+    }
+
+    100% {
+
+        transform: translateY(0);
+
+    }
+
+}
+
+/* ---------- Scale In ---------- */
+
+@keyframes scaleIn {
+
+    from {
+
+        opacity: 0;
+
+        transform: scale(.8);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: scale(1);
+
+    }
+
+}

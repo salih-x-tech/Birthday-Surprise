@@ -1,0 +1,43 @@
+/* ==========================================
+   LOADER
+========================================== */
+
+#loader{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.loader-star{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    background:radial-gradient(circle,#FFD166,#6C4CF1);
+
+    box-shadow:
+        0 0 40px rgba(255,209,102,.8),
+        0 0 80px rgba(108,76,241,.5);
+
+    animation:pulseGlow 2.5s infinite;
+
+}
+
+.loader-title{
+
+    margin-top:var(--space-6);
+
+}
+
+.loader-subtitle{
+
+    max-width:500px;
+
+    color:var(--color-text-muted);
+
+}

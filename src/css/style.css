@@ -1,0 +1,42 @@
+/* ==========================================
+   Birthday Surprise
+   Main Stylesheet
+   Version 1.0
+========================================== */
+
+/* ===============================
+   FOUNDATION
+=============================== */
+
+@import url("./variables.css");
+@import url("./typography.css");
+@import url("./base.css");
+@import url("./layout.css");
+@import url("./utilities.css");
+
+/* ===============================
+   COMPONENTS
+=============================== */
+
+@import url("./components/button.css");
+@import url("./components/card.css");
+@import url("./components/loader.css");
+@import url("./components/hero.css");
+@import url("./components/gift.css");
+@import url("./components/message.css");
+@import url("./components/cake.css");
+@import url("./components/fireworks.css");
+@import url("./components/music.css");
+@import url("./components/ending.css");
+
+/* ===============================
+   GLOBAL ANIMATIONS
+=============================== */
+
+@import url("./animations.css");
+
+/* ===============================
+   RESPONSIVE
+=============================== */
+
+@import url("./responsive.css");
