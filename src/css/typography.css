@@ -1,0 +1,175 @@
+/* ==========================================
+   TYPOGRAPHY
+   Birthday Surprise
+========================================== */
+
+/* Google Fonts Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* ==========================================
+   BODY TEXT
+========================================== */
+
+body{
+
+    font-family:var(--font-body);
+
+    color:var(--color-text);
+
+    line-height:1.7;
+
+    font-size:var(--fs-base);
+
+}
+
+
+/* ==========================================
+   HEADINGS
+========================================== */
+
+h1,h2,h3,h4,h5,h6{
+
+    margin:0;
+
+    color:var(--color-white);
+
+    line-height:1.2;
+
+    font-weight:var(--fw-bold);
+
+}
+
+
+h1{
+
+    font-family:var(--font-heading);
+
+    font-size:var(--fs-hero);
+
+    font-weight:400;
+
+}
+
+
+h2{
+
+    font-size:var(--fs-3xl);
+
+}
+
+
+h3{
+
+    font-size:var(--fs-2xl);
+
+}
+
+
+h4{
+
+    font-size:var(--fs-xl);
+
+}
+
+
+h5{
+
+    font-size:var(--fs-lg);
+
+}
+
+
+h6{
+
+    font-size:var(--fs-base);
+
+}
+
+
+/* ==========================================
+   PARAGRAPH
+========================================== */
+
+p{
+
+    margin:0;
+
+    color:var(--color-text);
+
+}
+
+
+/* ==========================================
+   LINKS
+========================================== */
+
+a{
+
+    color:inherit;
+
+    text-decoration:none;
+
+    transition:var(--transition-fast);
+
+}
+
+a:hover{
+
+    opacity:.85;
+
+}
+
+
+/* ==========================================
+   LISTS
+========================================== */
+
+ul,
+ol{
+
+    margin:0;
+
+    padding:0;
+
+    list-style:none;
+
+}
+
+
+/* ==========================================
+   STRONG
+========================================== */
+
+strong{
+
+    color:var(--color-white);
+
+}
+
+
+/* ==========================================
+   SMALL
+========================================== */
+
+small{
+
+    font-size:var(--fs-sm);
+
+    color:var(--color-text-muted);
+
+}
+
+
+/* ==========================================
+   SELECTION
+========================================== */
+
+::selection{
+
+    background:var(--color-primary);
+
+    color:var(--color-white);
+
+}
