@@ -1,0 +1,53 @@
+/* ==========================================
+   Scene 7 - Fireworks
+========================================== */
+
+.fireworks-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    gap:24px;
+
+}
+
+.fireworks-title{
+
+    font-size:3.5rem;
+
+    color:#ffffff;
+
+    text-shadow:0 0 30px rgba(255,170,220,.8);
+
+}
+
+.fireworks-text{
+
+    max-width:700px;
+
+    color:rgba(255,255,255,.85);
+
+    line-height:1.8;
+
+}
+
+#fireworks-canvas{
+
+    position:fixed;
+
+    inset:0;
+
+    width:100%;
+
+    height:100%;
+
+    pointer-events:none;
+
+}

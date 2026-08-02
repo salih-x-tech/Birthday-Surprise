@@ -1,0 +1,131 @@
+/* ==========================================
+   WISH SCENE
+========================================== */
+
+.wish-content{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
+}
+
+.wish-title{
+
+    font-size:clamp(2.5rem,6vw,4rem);
+
+    color:#ffffff;
+
+    margin-bottom:20px;
+
+}
+
+.wish-text{
+
+    max-width:650px;
+
+    color:#d7d7f5;
+
+    line-height:1.8;
+
+    margin-bottom:60px;
+
+}
+
+.wish-orb{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    cursor:pointer;
+
+    position:relative;
+    
+
+}
+
+.orb-core{
+
+    width:120px;
+
+    height:120px;
+
+    border-radius:50%;
+
+    background:radial-gradient(circle,
+    #ffffff 0%,
+    #ffd7ff 20%,
+    #b86cff 55%,
+    #6d3cff 100%);
+
+    box-shadow:
+    0 0 25px #b86cff,
+    0 0 60px #8f5bff,
+    0 0 100px rgba(184,108,255,.8);
+
+}
+
+.wish-hint{
+
+    margin-top:35px;
+
+    color:#ffffff;
+
+    animation:floatHint 2s ease-in-out infinite;
+
+}
+
+@keyframes floatHint{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-8px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+.wish-light{
+
+    position:absolute;
+
+    width:60px;
+
+    height:60px;
+
+    border-radius:50%;
+
+    background:radial-gradient(circle,
+    rgba(255,255,255,.95),
+    rgba(180,120,255,.7),
+    transparent 70%);
+
+    transform:scale(0);
+
+    opacity:0;
+
+    pointer-events:none;
+
+}

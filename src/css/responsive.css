@@ -1,0 +1,207 @@
+/* ==========================================
+   Responsive
+========================================== */
+
+html{
+
+    font-size:16px;
+
+}
+
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+body{
+
+    overflow-x:hidden;
+
+}
+
+.container{
+
+    width:min(100% - 32px, 1200px);
+
+}
+
+/* ==========================================
+   Tablets
+========================================== */
+
+@media (max-width:992px){
+
+    .hero-title,
+    .fireworks-title,
+    .ending-title{
+
+        font-size:2.8rem;
+
+    }
+
+    .hero-name{
+
+        font-size:4rem;
+
+    }
+
+    .message-title,
+    .cake-title{
+
+        font-size:2.4rem;
+
+    }
+
+}
+
+/* ==========================================
+   Mobile
+========================================== */
+
+@media (max-width:768px){
+
+    .hero-title,
+    .fireworks-title,
+    .ending-title{
+
+        font-size:2.2rem;
+
+    }
+
+    .hero-name{
+
+        font-size:3rem;
+
+    }
+
+    .message-title,
+    .cake-title{
+
+        font-size:2rem;
+
+    }
+
+    .message-text,
+    .cake-text,
+    .wish-text,
+    .ending-text,
+    .fireworks-text{
+
+        font-size:1rem;
+
+        line-height:1.8;
+
+    }
+
+}
+
+
+/* ==========================================
+   Mobile Components
+========================================== */
+
+@media (max-width:768px){
+
+    .gift{
+
+        transform:scale(.8);
+
+    }
+
+    .wish-orb{
+
+        width:180px;
+
+        height:180px;
+
+    }
+
+    .cake-image{
+
+        width:240px;
+
+    }
+
+    .message-card{
+
+        width:100%;
+
+        padding:24px;
+
+    }
+
+    .hero-content,
+    .cake-content,
+    .ending-content,
+    .fireworks-content{
+
+        gap:20px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+        max-width:280px;
+
+    }
+
+}
+
+/* ==========================================
+   Responsive Background
+========================================== */
+
+@media (max-width:768px){
+
+    .moon{
+
+        width:180px;
+
+        height:180px;
+
+        top:30px;
+
+        right:20px;
+
+    }
+
+    .moon-glow{
+
+        width:260px;
+
+        height:260px;
+
+        top:-10px;
+
+        right:-20px;
+
+        opacity:.35;
+
+    }
+
+    .cloud{
+
+        opacity:.12;
+
+        filter:blur(8px);
+
+    }
+
+    .stars{
+
+        opacity:.9;
+
+    }
+
+    .magic-particle{
+
+        transform:scale(.8);
+
+    }
+
+}

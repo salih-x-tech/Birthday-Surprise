@@ -1,0 +1,139 @@
+/* ==========================================
+   Scene 6 - Birthday Cake
+========================================== */
+
+.cake-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:24px;
+
+    text-align:center;
+
+}
+
+.cake-title{
+
+    font-size:3rem;
+
+    color:#ffffff;
+
+}
+
+.cake-text{
+
+    max-width:650px;
+
+    color:rgba(255,255,255,.8);
+
+    line-height:1.8;
+
+}
+
+.cake{
+
+    position:relative;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.cake-image{
+
+    width:320px;
+
+    max-width:90vw;
+
+    user-select:none;
+
+    pointer-events:none;
+
+}
+
+.flame{
+
+    position:absolute;
+
+    top:18px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    width:18px;
+
+    height:32px;
+
+    border-radius:50% 50% 50% 50%;
+
+    background:radial-gradient(circle,
+    #fff6b7 0%,
+    #ffd54f 35%,
+    #ff9800 70%,
+    transparent 100%);
+
+    filter:blur(.4px);
+
+    box-shadow:
+        0 0 12px #ffd54f,
+        0 0 30px #ff9800;
+
+    animation:flameFlicker .18s infinite alternate;
+
+}
+
+.blow-btn{
+
+    margin-top:20px;
+
+}
+
+.smoke{
+
+    position:absolute;
+
+    top:18px;
+
+    left:50%;
+
+    width:24px;
+
+    height:24px;
+
+    border-radius:50%;
+
+    background:rgba(220,220,220,.8);
+
+    filter:blur(10px);
+
+    opacity:0;
+
+    transform:translateX(-50%) scale(.2);
+
+    pointer-events:none;
+
+}
+
+@keyframes flameFlicker{
+
+    from{
+
+        transform:translateX(-50%) scale(1) rotate(-2deg);
+
+    }
+
+    to{
+
+        transform:translateX(-50%) scale(1.08) rotate(2deg);
+
+    }
+
+}

@@ -13,6 +13,8 @@
 @import url("./base.css");
 @import url("./layout.css");
 @import url("./utilities.css");
+@import url("./wish.css");
+@import url("./responsive.css");
 
 /* ===============================
    COMPONENTS
@@ -28,6 +30,7 @@
 @import url("./components/fireworks.css");
 @import url("./components/music.css");
 @import url("./components/ending.css");
+@import url("./components/background.css");
 
 /* ===============================
    GLOBAL ANIMATIONS
