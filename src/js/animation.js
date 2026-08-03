@@ -277,7 +277,7 @@ function onGiftClick() {
 
             onComplete: () => {
 
-                showScene(3);
+                showScene(4);
 
                 animateMessage();
 
@@ -322,7 +322,7 @@ function animateMessage() {
 
     continueBtn.addEventListener("click", () => {
 
-        showScene(4);
+        showScene(5);
 
         animateWish();
 
@@ -461,7 +461,7 @@ function onOrbClick() {
 
             onComplete: () => {
 
-                showScene(5);
+                showScene(6);
 
                 animateCake();
 
@@ -594,7 +594,7 @@ function blowCandle() {
 
             onComplete: () => {
 
-                showScene(6);
+                showScene(7);
 
                 animateFireworks();
 
@@ -642,7 +642,7 @@ export function animateFireworks() {
 
             onComplete: () => {
 
-                showScene(7);
+                showScene(8);
 
                 animateEnding();
 
